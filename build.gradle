@@ -27,6 +27,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-h2console'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-webmvc'
+	// Add springdoc OpenAPI starter for Spring WebMVC (UI + Swagger)
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
 	runtimeOnly 'com.h2database:h2'
 	testImplementation 'org.springframework.boot:spring-boot-restdocs'
 	testImplementation 'org.springframework.boot:spring-boot-starter-data-jpa-test'
